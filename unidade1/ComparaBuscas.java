@@ -33,3 +33,4 @@ public class ComparaBuscas {
         System.out.printf("Binária: índice %d, tempo %d nanosegundos\n", posicaoBuscaBinaria, tempoBuscaBinaria);
     }
 }
+.
