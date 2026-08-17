@@ -1,0 +1,1 @@
+# analise_2026.2_franklinEduardo
