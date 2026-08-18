@@ -26,17 +26,15 @@ if __name__ == "__main__":
     alvo_buscado = 999998
 
         // Medindo o tempo da busca linear
-        long inicioBuscaLinear = System.nanoTime();
-        int posicaoBuscaLinear = buscaLinear(vetor, alvoBuscado);
-        long tempoBuscaLinear = System.nanoTime() - inicioBuscaLinear;
+    inicio_busca_linear = time.perf_counter_ns()
+    posicao_busca_linear = busca_linear(vetor, alvo_buscado)
+    tempo_busca_linear = time.perf_counter_ns() - inicio_busca_linear
 
         // Medindo o tempo da busca binária
-        long inicioBuscaBinaria = System.nanoTime();
-        int posicaoBuscaBinaria = buscaBinaria(vetor, alvoBuscado);
-        long tempoBuscaBinaria = System.nanoTime() - inicioBuscaBinaria;
+    inicio_busca_binaria = time.perf_counter_ns()
+    posicao_busca_binaria = busca_binaria(vetor, alvo_buscado)
+    tempo_busca_binaria = time.perf_counter_ns() - inicio_busca_binaria
 
         // Exibindo os resultados
-        System.out.printf("Linear: índice %d, tempo %d nanosegundos\n", posicaoBuscaLinear, tempoBuscaLinear);
-        System.out.printf("Binária: índice %d, tempo %d nanosegundos\n", posicaoBuscaBinaria, tempoBuscaBinaria);
-    }
-
+    print(f"Linear: índice {posicao_busca_linear}, tempo {tempo_busca_linear} nanosegundos")
+    print(f"Binária: índice {posicao_busca_binaria}, tempo {tempo_busca_binaria} nanosegundos")
