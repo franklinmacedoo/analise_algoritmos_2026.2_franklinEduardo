@@ -1,5 +1,5 @@
-
-
+import time
+import bisect
     // retorna o índice no vetor onde está o alvo, -1 caso não encontrado
 def busca_linear(vetor, alvo_buscado):
     for i in range(len(vetor)):
