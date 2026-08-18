@@ -10,13 +10,10 @@
         return -1;
     }
 
-    public static void main(String[] args) {
-        int tamanho = 1000000;
-        int[] vetor = new int[tamanho];
-        for (int i = 0; i < tamanho; i++) {
-            vetor[i] = i * 2; // o vetor só tem números pares
-        }
-        int alvoBuscado = 999998;
+if __name__ == "__main__":
+    tamanho = 1000000
+    vetor = [i * 2 for i in range(tamanho)]  # O vetor só tem números pares e já está ordenado
+    alvo_buscado = 999998
 
         // Medindo o tempo da busca linear
         long inicioBuscaLinear = System.nanoTime();
