@@ -1,4 +1,4 @@
-public class ComparaBuscas {
+
 
     // retorna o índice no vetor onde está o alvo, -1 caso não encontrado
     public static int buscaLinear(int[] vetor, int alvoBuscado) {
@@ -32,5 +32,4 @@ public class ComparaBuscas {
         System.out.printf("Linear: índice %d, tempo %d nanosegundos\n", posicaoBuscaLinear, tempoBuscaLinear);
         System.out.printf("Binária: índice %d, tempo %d nanosegundos\n", posicaoBuscaBinaria, tempoBuscaBinaria);
     }
-}
-.
+
