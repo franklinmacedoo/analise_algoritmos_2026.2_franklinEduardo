@@ -29,7 +29,7 @@ if __name__ == "__main__":
   posicao_busca_binaria = busca_binaria(vetor, alvo_buscado)
   tempo_busca_binaria = time.perf_counter_ns() - inicio_busca_binaria
 
-        // Exibindo os resultados
+        # Exibindo os resultados
   tempo_busca_linear_ms = tempo_busca_linear / 1_000_000
   tempo_busca_binaria_ms = tempo_busca_binaria / 1_000_000
 
