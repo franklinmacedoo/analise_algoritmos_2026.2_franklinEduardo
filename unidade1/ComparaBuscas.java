@@ -1,9 +1,11 @@
 
 
     // retorna o índice no vetor onde está o alvo, -1 caso não encontrado
-    public static int buscaLinear(int[] vetor, int alvoBuscado) {
-        return -1;
-    }
+def busca_linear(vetor, alvo_buscado):
+    for i in range(len(vetor)):
+        if vetor[i] == alvo_buscado:
+            return i
+    return -1
 
     // retorna o índice no vetor onde está o alvoBuscado, -1 caso não encontrado
     public static int buscaBinaria(int[] vetor, int alvoBuscado) {
