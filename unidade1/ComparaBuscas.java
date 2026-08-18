@@ -8,9 +8,17 @@ def busca_linear(vetor, alvo_buscado):
     return -1
 
     // retorna o índice no vetor onde está o alvoBuscado, -1 caso não encontrado
-    public static int buscaBinaria(int[] vetor, int alvoBuscado) {
-        return -1;
-    }
+def busca_binaria(vetor, alvo_buscado):
+    esquerda, direita = 0, len(vetor) - 1
+    while esquerda <= direita:
+        meio = (esquerda + direita) // 2  # Divisão inteira
+        if vetor[meio] == alvo_buscado:
+            return meio
+        elif vetor[meio] < alvo_buscado:
+            esquerda = meio + 1
+        else:
+            direita = meio - 1
+    return -1
 
 if __name__ == "__main__":
     tamanho = 1000000
