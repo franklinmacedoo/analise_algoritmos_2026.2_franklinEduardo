@@ -15,7 +15,7 @@ def busca_binaria(vetor, alvo_buscado):
   else:
     return -1
 if __name__ == "__main__":
-  tamanho = 1000
+  tamanho = 10000
   vetor = [i * 2 for i in range(tamanho)]
   alvo_buscado = 999998
 
