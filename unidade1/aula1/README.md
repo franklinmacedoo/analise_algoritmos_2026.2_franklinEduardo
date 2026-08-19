@@ -13,6 +13,9 @@ Teste 1
 | 100.000          | 2.879             | 0.003              |
 | 1.000.000        | 15.116            | 0.006              |
 
+<img width="640" height="480" alt="grafico_buscas" src="https://github.com/user-attachments/assets/54aff3ba-6491-4a47-a853-5b26bf5b7fa2" />
+
+
 Teste 2
 
 | Tamanho do Vetor | Busca Linear (ms) | Busca Binária (ms) |
@@ -46,5 +49,3 @@ Média
 | 100.000          | 3.050             | 0.003              |
 | 1.000.000        | 15.030            | 0.006              |
 
-
-<img width="692" height="403" alt="Captura de tela 2026-08-19 161911" src="https://github.com/user-attachments/assets/aa7b9d19-3de3-483f-b6fb-8f6dcc85ca9a" />
